@@ -3,7 +3,6 @@
 import base64
 import re
 import asyncio
-import logging
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from config import FORCE_SUB_CHANNEL, ADMINS
