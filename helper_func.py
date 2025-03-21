@@ -104,6 +104,6 @@ def get_readable_time(seconds: int) -> str:
         up_time += f"{time_list.pop()}, "
     time_list.reverse()
     up_time += ":".join(time_list)
-     return up_time
+    return up_time
 
 subscribed = filters.create(is_subscribed)
