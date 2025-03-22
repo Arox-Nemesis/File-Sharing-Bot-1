@@ -71,7 +71,6 @@ instance/
 
 # Sphinx documentation
 docs/_build/
-
 # PyBuilder
 .pybuilder/
 target/
@@ -137,3 +136,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+.idea
+Bot.session
+filesharingbot.txt
+Bot.session-journal
